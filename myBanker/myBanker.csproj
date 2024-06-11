@@ -12,4 +12,16 @@
       <Folder Include="View\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Model\Interfaces\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Model\Interfaces\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Model\Interfaces\**" />
+    </ItemGroup>
+
 </Project>
